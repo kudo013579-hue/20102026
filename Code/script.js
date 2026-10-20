@@ -14,7 +14,7 @@ const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&q
 /* ================= KỊCH BẢN ================= */
 const S=[
  {say:TO?'này <em>'+esc(TO)+'</em> ơi!':'này cậu ơi!', bars:1.1, mood:'wave', mode:'hero', bg:0, fx:{meteor:1}},
- {say:'tớ là <em>Nụ</em> — nàng tiên nhỏ của vườn hoa', bars:1.7, mood:'talk'},
+ {say:'tớ là <em>Đại</em> — Ddaji', bars:1.7, mood:'talk'},
  {say:'hôm nay tớ được giao một nhiệm vụ đặc biệt lắm đó…', bars:1.7, mood:'shy'},
  {say:'vì sắp đến ngày…', bars:1, mood:'talk'},
  {scene:'date', mode:'side', say:'<em>20/10</em> rồi!', bars:1.7, mood:'happy', bg:2, fx:{petals:.7,meteor:1}},
@@ -136,7 +136,7 @@ $('#q1').addEventListener('click',e=>{
 
 function setupFinal(){
   const to=TO||'';
-  $('#f-to').textContent = to ? 'gửi '+to+(FROM?' · từ '+FROM:'') : 'gửi người phụ nữ tuyệt vời'+(FROM?' · từ '+FROM:'');
+  $('#f-to').textContent = to ? 'gửi '+to+(FROM?' · từ '+FROM:'') : 'gửi các bạn nữ 11A1 Trường Thpt Mỹ Đức C'+(FROM?' · từ '+FROM:'');
   if(location.protocol.startsWith('http')) $('#b-link').hidden=false;
 }
 $('#b-link').addEventListener('click',()=>{
